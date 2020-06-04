@@ -3,7 +3,7 @@ var miImage = document.querySelector('img');
 miImage.onclick = function () {
     var miSrc = miImage.getAttribute('src');
     if (miSrc === 'images/Sakamoto.png') {
-      miImage.setAttribute('src','images/dooge.jpg');
+      miImage.setAttribute('src','images/Dooge.jpg');
     } else {
       miImage.setAttribute('src', 'images/Sakamoto.png');
     }
